@@ -1,0 +1,100 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+
+header {
+    background: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #13486b;
+}
+
+
+.presentacion {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #709ccf, #0068bd);
+    color: #fff;
+}
+
+.presentacion h1 {
+    font-size: 2.5rem;
+}
+
+.presentacion .btn-principal {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #306fa3;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.presentacion .btn-principal:hover {
+    background: #1d939b;
+    color: #fff;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    background: #fff;
+}
+
+.info article {
+    max-width: 45%;
+}
+
+/* Contacto */
+.contacto {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #eee;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: #34b2bb;
+    text-decoration: none;
+}
